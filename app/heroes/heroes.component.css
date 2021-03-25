@@ -1,0 +1,59 @@
+.heroes {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+    font-family:  'Times New Roman';
+  }
+  h2{
+      color: rgb(10, 10, 10);
+      font-family:  'Times New Roman';
+  }
+  .heroes li {
+    cursor: pointer;
+    position: relative;
+    background-color: #feceab;
+    
+    margin: .7em;
+    padding: .5em 0;
+    height: 1.6em;
+    border-radius: 5px;
+    font-family:  'Times New Roman';
+  }
+  .heroes li:hover {
+    color: black;
+    background-color:ghostwhite;
+    left: .1em;
+  }
+  .heroes li.selected {
+    background-color: black;
+    color: ghostwhite;
+  }
+  .heroes li.selected:hover {
+    background-color: ghostwhite;
+    color: black;
+  }
+  .heroes li.selected:active {
+    background-color: black;
+    color: white;
+  }
+  .heroes .badge {
+    display:inline-flexbox;
+    font-size: small;
+    color: ghostwhite;
+    
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color:#e84a5f;
+    line-height: 1em;
+    position: relative;
+    left: 0;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 4px 4px 4px 4px;
+  }
+  
+  input {
+    padding: .5rem;
+  }
+  

@@ -1,0 +1,11 @@
+h1{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    color:black;
+    background-color:   #ff847c;
+    border-radius: 4px;
+}
+body {
+    border: 5px solid #9ede73;
+    background-color: #5e6f64;
+  }
